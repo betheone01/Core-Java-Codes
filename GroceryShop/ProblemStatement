@@ -1,0 +1,15 @@
+Develop a java program to manage a list of grocery items. Each grocery item should have the following attributes:
+
+Name
+Price per unit
+Quantity in stock
+Stock update date and time ((it changed every time when quantity changes)
+
+Your program should provide the following functionalities:
+
+1. Add a new grocery item to the list.
+2. Update the quantity of a grocery item in stock.
+3. Display the list of grocery items including their name, prices and quantities.
+4. Remove all empty stock items. (quantity in stock is zero).
+5. Display all products for which stock updated (quantity changed) in last 3 days.
+
