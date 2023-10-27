@@ -1,0 +1,19 @@
+Imagine a publishing company that markets both books and video-cassettes versions of its work. 
+Write a console-based application to manage the company's repository of books and tapes. 
+The application should allow the company owner to perform following tasks:
+
+1. Publish new book
+3. List all book publications ordered by publish date in descending order
+2. Publish new tape
+4. List top 5 publications of current year based on rating
+5. Remove all publications which are 5 years old
+
+You can create a class Publication that stores
+Id (Unique identifier, should be generated automatically)
+title (text),
+price (in INR),
+publish date,
+ratings (integer value between 1 to 10)
+You can have two sub classes-Book and Tape
+Book will store page count
+Tape will store playing time (in minutes)
