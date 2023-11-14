@@ -23,11 +23,11 @@ public class TaskManagerTester {
 		{
 			
 			Map<String,Task>taskMap=new HashMap<>();
-			Task z=new Task("Drink", "Daru",LocalDate.parse("2020-10-01") );
-			Task a=new Task("Eat", "chakana",LocalDate.parse("2000-10-01") );
-			Task b=new Task("ganja", "phokon ",LocalDate.parse("2023-10-25") );
+			Task z=new Task("Drink", "Sprite",LocalDate.parse("2020-10-01") );
+			Task a=new Task("Eat", "Rice Plate",LocalDate.parse("2000-10-01") );
+			Task b=new Task("Study", "Java ",LocalDate.parse("2023-10-25") );
 			Task c=new Task("study", "oops",LocalDate.parse("2050-10-01") );
-			Task d=new Task("chodna", "russian",LocalDate.parse("2090-10-01") );
+			Task d=new Task("study", "c++",LocalDate.parse("2090-10-01") );
 			taskMap.put("Drink", z);
 			taskMap.put("Eat", a);
 			taskMap.put("ganja", b);
